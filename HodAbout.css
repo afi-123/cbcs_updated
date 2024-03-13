@@ -1,0 +1,131 @@
+.container_profile{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ddd;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    flex: 2%;
+    display: table;
+    align-items: left;
+    text-align: center;
+    font-size: 20px;
+    background-color: #0994f7;
+    color: #fff;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 100vh; 
+}
+
+.box img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 150px;
+    width: 150px;
+    
+}
+.box p
+{
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.About{
+    margin-left: 20px;
+    flex: 50%;
+    display: table;
+    padding: 30px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 100vh;
+}
+
+
+.About ul li{
+    list-style: none;
+}
+
+.About ul{
+    margin-top: 20px;
+}
+.patient-info {
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px; 
+  }
+  
+  
+  .patient-info {
+    font-size: 16px;
+  }
+  
+  .patient-info:nth-child(3) {
+    font-weight: bold; 
+  }
+  #info {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+  }
+  #info td, #info th {
+    padding: 10px;
+    height: 20px;
+  }
+  #right
+  {
+    text-align:unset
+  }
+  
+
+@media screen and (max-width: 1068px) {
+    .container_profile{
+        display: table;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .About{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .About h1{
+        text-align: center;
+    }
+}
+
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+
+.table-details , .row-details ,.td-details{
+    border: 1px solid grey;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+ 
+}
+
+.table-details{
+    padding: 5px;
+}
+

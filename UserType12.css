@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+body {
+  background-color: #831238; /* Light background color */
+  background-image: url('IRC.jpg'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 0.9rem;
+  font-weight: 40;
+  line-height: 1.15;
+  color: #000;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  margin: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Component Styles */
+.usertype-container {
+  background-color: #282c34;
+  padding: 20px; /* Increased padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-rp2,
+.form-control-6at {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0; /* Added margin for better spacing */
+  border: 1px solid #d4cece;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #4682b4;
+}
+.select-user-text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the text */
+}
+
+/* Add your existing CSS code here */
+
+/* Additional Styles for Wrapping Box */
+
+
+.login-box {
+  background-color: #ffffffe1;;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto; /* Center all three boxes horizontally without extra spacing */
+}
+
+/* Additional Styles for Image */
+.user-logo-img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

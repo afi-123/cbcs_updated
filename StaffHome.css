@@ -1,0 +1,164 @@
+/* StaffHome.css */
+
+/* StaffHome.css */
+
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px; /* Adjust the width as needed */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Add the rest of your styles here */
+  
+  .staff-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px;
+  }
+  
+  .upload-box {
+    border: 2px dashed #aaa;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload:hover {
+    color: #0056b3;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px; /* Add margin between links */
+  }
+  
+  .nav-links a:hover {
+    color: #ff0; /* Change the color on hover */
+  }
+  
+  .nav-links a.active {
+    background-color: #28ae72; /* Change background color for active link */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 5px 10px; /* Add padding to create a box effect */
+  }
+  
+  #Logout {
+    align-self: center;
+    background-color: #dc3545; /* Red color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #Logout:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+  
+  /* Table Styles */
+  #Hod {
+    width: calc(100% - 20px); /* Adjust to make space for the sidebar */
+    border-collapse: collapse;
+  }
+  
+  /* StaffHome.css */
+
+/* Reduce the width of table columns */
+#Hod th,
+#Hod td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  max-width: 100px; /* Adjust the maximum width of the columns */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Hod th.email,
+#Hod td.email,
+#Hod th.course,
+#Hod td.course,
+#Hod th.regNo,
+#Hod td.regNo {
+  max-width: 20px; /* Adjust the maximum width of the columns */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Adjust the width of table columns */
+#Hod th.regNo,
+#Hod td.regNo,
+#Hod th.email,
+#Hod td.email,
+#Hod th.course,
+#Hod td.course {
+    padding: 4px; /* Reduce padding to make rows smaller */
+    font-size: 12px; /* Reduce font size to make rows smaller */
+}
+
+
+/* Add the rest of your styles here */
+
+  
+  #Hod th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #Hod tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  

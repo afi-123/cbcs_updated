@@ -1,0 +1,65 @@
+#Hod {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #Hod th, #Hod td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #Hod th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #Hod tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #Hod td input[type="checkbox"] {
+    transform: scale(1.5); /* Increase checkbox size */
+  }
+  
+  #Hod td input[type="checkbox"]:checked {
+    background-color: #007bff; /* Change background color when checked */
+  }
+  
+  #Hod td input[type="checkbox"]:checked::after {
+    content: ''; /* Hide default checkbox */
+  }
+  
+  #Hod td {
+    vertical-align: middle; /* Align contents vertically */
+  }
+  .attendance-sheet {
+    text-align: center;
+  }
+  
+  .attendance-table {
+    margin: 0 auto;
+  }
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  .options button {
+    margin-left: 10px;
+  }
+  .options {
+    margin-top: 20px;
+    margin: 0 auto; /* Align the submit button to the center */
+  }
+/* Add a hovering effect to the submit button */
+.options button {
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .options button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+    

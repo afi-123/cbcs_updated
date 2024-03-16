@@ -1,0 +1,130 @@
+/* StudentInfo.css */
+.main-container {
+    background-color: rgba(173, 163, 199, 0.2); /* Light transparent red background */
+    padding-bottom: 20px;
+}
+/* StudentInfo.css */
+.navbar {
+    background-color: #831238; /* Light brown background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Increased padding for the navbar */
+    color: white;
+}
+
+/* StudentInfo.css */
+
+/* Increase width of the logo */
+.logo {
+    width: 200px; /* Increased width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Add more hovering effect to the top navbar links */
+.menu li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    transform: scale(1.1); /* Increase scale on hover */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+/* Colored box hovering effect when link is clicked */
+.menu li a:active {
+    background-color: rgba(255, 0, 0, 0.5); /* Red colored box with transparency */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+
+
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+
+
+.student-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.student-details {
+    background-color: #f0f0f0;
+    border: 2px solid #000; /* Bold border */
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.student-details table {
+    border-collapse: separate; /* Separate border */
+    border-spacing: 0; /* Set border spacing to 0 */
+}
+
+.student-details td {
+    border-bottom: 1px solid #ddd; /* Add line between items */
+    padding: 10px 0; /* Adjust padding */
+}
+
+.student-details td:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+/* StudentInfo.css */
+.bottom-navbar {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+}
+
+.bottom-navbar .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-navbar .menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.bottom-navbar .menu li:last-child {
+    margin-right: 0;
+}
